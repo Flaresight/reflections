@@ -1,0 +1,56 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+--> A new repository is created the subdirectories and files located in the particular
+directory where the repository is initialized. We need to do this so as to create a 
+repository. 
+
+
+
+How is the staging area different from the working directory and the repository?
+
+What value do you think it offers?
+--> Staging area sits between a commit and working directory. This is where all the files 
+needed for the commit are placed before commiting. It provides an area between the 
+working directory and repository for us to see which files are going to be in the 
+repository from the working directory.
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+--> Staging area shows the files that are added from working directory to go into
+repository. We can see the contents of staging area and find out the changes that 
+depict single logic and make commit accordingly.
+
+
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? 
+How would branches help?
+
+
+--> Creating a new language version. Adding an experimental feature. 
+We can go and checkout whichever branch we want to and make changes to it without 
+affecting the original version.
+
+How do the diagrams help you visualize the branch structure?
+--> Diagrams give pictorial representation of all the commits in branches making it 
+easier for us to see which commits are in particular branches.
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+
+the diagram the way we do?
+--> Merging two branches creates one single probably master branch with commits
+from both parent branches. We represent it in such a way because commits from
+both parents are visible from the merged branch.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+--> Pros: In automatic merging, programmers need not to do a lot of work.
+Cons: However, when merging is done manually, changes in specific line of code can be
+checked and correct line can be used instead of all the changed lines.
