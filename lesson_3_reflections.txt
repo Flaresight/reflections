@@ -7,3 +7,11 @@ stay up-to-date with your remote repository?
 --> Many contributors can work on a project at any given time. It will be a lot of 
 pull calls if Git does pull automatically. So, we can pull changes when we want to 
 work on it whenever we want to.
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+--> Forks are GitHub's name for clones which are created in the GitHub servers itself
+by the users.
+Clones can be either a repository saved to local machine from cloud or those that
+are shared between local machines.
+Branches are the different logical changes that are commited.
