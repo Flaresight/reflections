@@ -27,3 +27,9 @@ What would be easier, and what would be harder?
 projects in these services. I think creating local repositories would be easier.
 Pushing and pulling into and from Github might be harder if we are dealing with
 big projects as there could be multiple commits and changes that are out of sync.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+--> We do this when we want to add a feature or change the project and want other
+people's comment on the change before merging the change into the master branch in
+GitHub. This way, the master does not have unwanted changes.
