@@ -15,3 +15,8 @@ by the users.
 Clones can be either a repository saved to local machine from cloud or those that
 are shared between local machines.
 Branches are the different logical changes that are commited.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+--> When we store the last known store of the remote locally, we can access it
+from anywhere even if we have no internet connection. We can work with it and then push
+new changes later.
