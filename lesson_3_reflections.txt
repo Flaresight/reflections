@@ -20,3 +20,10 @@ What is the benefit of having a copy of the last known state of the remote store
 --> When we store the last known store of the remote locally, we can access it
 from anywhere even if we have no internet connection. We can work with it and then push
 new changes later.
+
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+--> I would ask my team members to create repository in GitHub and Git and work on 
+projects in these services. I think creating local repositories would be easier.
+Pushing and pulling into and from Github might be harder if we are dealing with
+big projects as there could be multiple commits and changes that are out of sync.
